@@ -1,0 +1,159 @@
+{
+ "verified": "2026-10-23",
+ "questions": [
+  {
+   "id": "P1",
+   "layer": "generation",
+   "asked_as_of": "2024-07-01",
+   "question": "Will the RTO-wide clearing price in PJM Interconnection's capacity auction for delivery year 2025/2026 be above $100 per MW-day?",
+   "answer": true,
+   "value": "$269.92 per MW-day, against $28.92 in the previous auction",
+   "source": "PJM Interconnection, press release on the 2025/2026 Base Residual Auction, 30 July 2024",
+   "url": "https://www.pjm.com/-/media/about-pjm/newsroom/2024-releases/20240730-pjm-capacity-auction-procures-sufficient-resources-to-meet-rto-reliability-requirement.ashx",
+   "note": "More than ninefold in one auction."
+  },
+  {
+   "id": "P2",
+   "layer": "generation",
+   "asked_as_of": "2025-07-01",
+   "question": "Will PJM's capacity auction for delivery year 2026/2027 clear at its new FERC-approved price cap across the whole footprint?",
+   "answer": true,
+   "value": "$329.17 per MW-day, the cap, for the entire PJM footprint",
+   "source": "PJM Interconnection, press release on the 2026/2027 Base Residual Auction, 22 July 2025",
+   "url": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2025-releases/20250722-pjm-auction-procures-134311-mw-of-generation-resources-supply-responds-to-price-signal.pdf",
+   "note": "The cap and a floor were new rules for this auction; clearing at the cap means the market wanted to pay more than the rules allowed."
+  },
+  {
+   "id": "P3",
+   "layer": "grid",
+   "asked_as_of": "2024-03-01",
+   "question": "Will the average US retail price of electricity, all sectors, be more than 3% higher in 2024 than in 2023, according to the EIA?",
+   "answer": false,
+   "value": "12.94 cents/kWh in 2024 against 12.68 in 2023: +2.05% (calculated)",
+   "source": "US Energy Information Administration, Electric Power Annual, Table 2.4",
+   "url": "https://www.eia.gov/electricity/annual/html/epa_02_04.html",
+   "note": "Capacity prices jumped in PJM while the national retail average rose about 2%."
+  },
+  {
+   "id": "P4",
+   "layer": "data-centres",
+   "asked_as_of": "2025-01-15",
+   "question": "Will the IEA estimate that data centres worldwide used more than 400 TWh of electricity in 2024?",
+   "answer": true,
+   "value": "415 TWh, about 1.5% of world electricity use",
+   "source": "International Energy Agency, Energy and AI, executive summary, April 2025",
+   "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+   "note": "April 2025 vintage. A later IEA publication gives 485 TWh for 2025."
+  },
+  {
+   "id": "P5",
+   "layer": "data-centres",
+   "asked_as_of": "2024-06-01",
+   "question": "Will Lawrence Berkeley National Laboratory's December 2024 report put US data centres above 4% of total US electricity use in 2023?",
+   "answer": true,
+   "value": "4.4% (176 TWh) in 2023",
+   "source": "Lawrence Berkeley National Laboratory, 2024 United States Data Center Energy Usage Report, December 2024",
+   "url": "https://escholarship.org/content/qt32d6m0d1/qt32d6m0d1.pdf",
+   "note": "December 2024 vintage. LBNL's June 2026 update estimates 4.7% for 2024 and revises earlier years slightly downward."
+  },
+  {
+   "id": "P6",
+   "layer": "grid",
+   "asked_as_of": "2024-06-01",
+   "question": "Will LBNL's next Queued Up report show less capacity waiting for US grid interconnection at the end of 2024 than the roughly 2,600 GW at the end of 2023?",
+   "answer": true,
+   "value": "About 2,290 GW at end-2024 (1,400 GW generation, 890 GW storage)",
+   "source": "Lawrence Berkeley National Laboratory, Queued Up: 2025 Edition, December 2025",
+   "url": "https://emp.lbl.gov/sites/default/files/2025-12/Queued%20Up%202025%20Edition%20-%2012.15.2025.pdf",
+   "note": "More than 700 GW withdrew in 2024 while about 500 GW of new requests arrived."
+  },
+  {
+   "id": "P7",
+   "layer": "grid",
+   "asked_as_of": "2024-02-16",
+   "question": "Will more than 12 GW of utility-scale battery storage be added to the US grid in 2024, according to the EIA?",
+   "answer": false,
+   "value": "10.4 GW added in 2024 (6.4 GW in 2023)",
+   "source": "US Energy Information Administration, Today in Energy, 12 March 2025",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=64705",
+   "note": "Developers had planned 14.3 GW for 2024: plans ran well ahead of what was built."
+  },
+  {
+   "id": "C1",
+   "layer": "compute",
+   "asked_as_of": "2023-12-15",
+   "question": "Will worldwide semiconductor sales for 2024, as reported by the SIA from WSTS data, exceed $600 billion?",
+   "answer": true,
+   "value": "$627.6 billion, up 19.1% from $526.8 billion in 2023",
+   "source": "Semiconductor Industry Association, press release, 7 February 2025",
+   "url": "https://www.semiconductors.org/global-semiconductor-sales-increase-19-1-in-2024-double-digit-growth-projected-in-2025/",
+   "note": "WSTS had forecast $588 billion in November 2023 and later revised the 2024 total to $630.5 billion."
+  },
+  {
+   "id": "C2",
+   "layer": "robotics",
+   "asked_as_of": "2024-01-15",
+   "question": "Will the International Federation of Robotics report more than 550,000 industrial robots installed worldwide in 2023?",
+   "answer": false,
+   "value": "541,302 units, 2% below the 2022 record of 552,946",
+   "source": "International Federation of Robotics, World Robotics 2024 press release, 24 September 2024",
+   "url": "https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide",
+   "note": "The second-highest year on record, but below 2022."
+  },
+  {
+   "id": "C3",
+   "layer": "robotics",
+   "asked_as_of": "2025-03-31",
+   "question": "In the IFR's World Robotics data, will China account for more than half of worldwide industrial robot installations in 2024?",
+   "answer": true,
+   "value": "54% of global installations (295,000 units)",
+   "source": "International Federation of Robotics, World Robotics 2025 press release, 25 September 2025",
+   "url": "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years",
+   "note": "China's share had been 51% in 2023."
+  },
+  {
+   "id": "C4",
+   "layer": "compute",
+   "asked_as_of": "2025-05-01",
+   "question": "Will the June 2025 TOP500 list include more than three systems above 1 exaflop/s on the HPL benchmark?",
+   "answer": false,
+   "value": "Three: El Capitan (1.742), Frontier (1.353) and Aurora (1.012 exaflop/s)",
+   "source": "TOP500, June 2025 list",
+   "url": "https://top500.org/lists/top500/2025/06/",
+   "note": "A fourth system reached exactly 1.000 exaflop/s on the November 2025 list."
+  },
+  {
+   "id": "R1",
+   "layer": "replication",
+   "asked_as_of": "2011-01-01",
+   "question": "In McLean and Pontiff's study of published stock-return predictors, will portfolio returns be more than 50% lower after publication than in the original samples?",
+   "answer": true,
+   "value": "58% lower after publication; 26% lower out of sample",
+   "source": "R. D. McLean and J. Pontiff, Journal of Finance 71(1), 2016",
+   "url": "https://afajof.org/issue/volume-71-issue-1/",
+   "note": "Mainländer's voice in data: an edge begins to die the moment it is published."
+  },
+  {
+   "id": "R2",
+   "layer": "replication",
+   "asked_as_of": "2016-12-31",
+   "question": "In Hou, Xue and Zhang's replication of 452 anomalies, with microcaps controlled, will more than half fail to clear |t| ≥ 1.96?",
+   "answer": true,
+   "value": "65% fail; 82% under the stricter 2.78 hurdle",
+   "source": "K. Hou, C. Xue and L. Zhang, Replicating Anomalies, Review of Financial Studies 33(5), 2020",
+   "url": "https://ideas.repec.org/a/oup/rfinst/v33y2020i5p2019-2133..html",
+   "note": "Precise and wrong: most published results did not survive a careful re-run."
+  },
+  {
+   "id": "R3",
+   "layer": "replication",
+   "asked_as_of": "2020-12-31",
+   "question": "Under their Bayesian model, will more than 75% of the US factors in Jensen, Kelly and Pedersen's study replicate?",
+   "answer": true,
+   "value": "82.4% (55.6% with plain OLS tests on raw returns)",
+   "source": "T. I. Jensen, B. Kelly and L. H. Pedersen, Is There a Replication Crisis in Finance?, Journal of Finance 78(5), 2023",
+   "url": "https://research-api.cbs.dk/ws/portalfiles/portal/95651880/theis_ingerslev_jensen_et_al_is_there_a_replication_crisis_in_finance_publishersversion.pdf",
+   "note": "The same evidence reads as crisis or as robustness depending on the method — which is why the method is published before the score."
+  }
+ ]
+}

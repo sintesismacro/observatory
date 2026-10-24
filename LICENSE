@@ -1,0 +1,22 @@
+Copyright (c) 2026 SINTESIS UG (haftungsbeschränkt). All rights reserved.
+
+This licence covers the software in this repository: site/, tools/ and the workflows under
+.github/. The data in data/ (trainer.json, canon.json, atlas_meta.json) is licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0,
+https://creativecommons.org/licenses/by/4.0/); credit "SINTESIS Observatory,
+github.com/sintesismacro/observatory". The typefaces in site/assets/fonts/ keep their own SIL
+Open Font License 1.1, whose texts sit beside them. The SINTESIS mark is protected; all rights
+reserved.
+
+The software is made available for reading only. No licence is granted, expressly or by
+implication, to use, copy, modify, merge, publish, distribute, sublicense, sell or create
+derivative works of the software without the prior written permission of SINTESIS UG.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NON-INFRINGEMENT. IN NO EVENT SHALL SINTESIS UG BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+Nothing in this repository is investment advice, an offer or a solicitation.
+
+Contact: office@sintesismacro.com

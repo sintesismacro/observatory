@@ -1,0 +1,155 @@
+{
+ "rings": [
+  {
+   "id": "philosophy",
+   "label": "Philosophy"
+  },
+  {
+   "id": "forecasting",
+   "label": "Forecasting and judgement"
+  },
+  {
+   "id": "portfolio",
+   "label": "Portfolio and risk"
+  }
+ ],
+ "rules": [
+  {
+   "id": "R1",
+   "label": "Two voices before a number",
+   "where": "METHOD § 1",
+   "text": "Every forecast carries a Becoming case and a Returning case before it carries a probability."
+  },
+  {
+   "id": "R2",
+   "label": "Score with a proper rule",
+   "where": "METHOD § 6",
+   "text": "Every resolved forecast is scored by the Brier score, against a permanent 50% as the baseline."
+  },
+  {
+   "id": "R3",
+   "label": "Keep score in public, no backfill",
+   "where": "METHOD § 4",
+   "text": "Locked fields never change after merge; misses stay visible and a changed view is a new file."
+  },
+  {
+   "id": "R4",
+   "label": "One owner per probability",
+   "where": "METHOD § 3",
+   "text": "Only the named forecaster writes a probability; agents draft, and challengers read only the record."
+  },
+  {
+   "id": "R5",
+   "label": "Breadth over boldness",
+   "where": "The Ledger's design",
+   "text": "Many small, dated, scorable questions instead of a few grand calls."
+  },
+  {
+   "id": "R6",
+   "label": "Start from risk",
+   "where": "SINTESIS principles",
+   "text": "Nothing is credited to skill until the factor part and the residual have been separated."
+  }
+ ],
+ "thinkers": [
+  {
+   "id": "spinoza",
+   "ring": "philosophy",
+   "name": "Baruch Spinoza",
+   "work": "Ethics",
+   "year": 1677,
+   "idea": "The order and connection of ideas is the same as the order and connection of things; falsity is a lack of knowledge, not something positive.",
+   "rules": [
+    "R1"
+   ],
+   "voice": "Becoming",
+   "short": "Baruch Spinoza"
+  },
+  {
+   "id": "mainlander",
+   "ring": "philosophy",
+   "name": "Philipp Mainländer",
+   "work": "Die Philosophie der Erlösung",
+   "year": 1876,
+   "idea": "Every striving uses itself up: the world moves from being towards its own extinction.",
+   "rules": [
+    "R1"
+   ],
+   "voice": "Returning",
+   "short": "Philipp Mainländer"
+  },
+  {
+   "id": "brier",
+   "ring": "forecasting",
+   "name": "Glenn W. Brier",
+   "work": "Verification of forecasts expressed in terms of probability",
+   "year": 1950,
+   "idea": "A probability forecast can be scored by its squared distance from what happened, which rewards honest, calibrated numbers.",
+   "rules": [
+    "R2"
+   ],
+   "short": "Glenn W. Brier"
+  },
+  {
+   "id": "tetlock",
+   "ring": "forecasting",
+   "name": "Philip E. Tetlock",
+   "work": "Expert Political Judgment (2005); Superforecasting, with Dan Gardner (2015)",
+   "year": 2005,
+   "idea": "Judgement improves only where it is scored over many questions; forecasters who keep score, think in fine-grained probabilities and update beat those who don't.",
+   "rules": [
+    "R3",
+    "R5"
+   ],
+   "short": "Philip E. Tetlock"
+  },
+  {
+   "id": "kahneman",
+   "ring": "forecasting",
+   "name": "Daniel Kahneman",
+   "work": "Thinking, Fast and Slow (2011); Noise, with Olivier Sibony and Cass R. Sunstein (2021)",
+   "year": 2011,
+   "idea": "Judgements are noisy as well as biased; independent assessments, made before people see each other's views, reduce the noise.",
+   "rules": [
+    "R4"
+   ],
+   "short": "Daniel Kahneman"
+  },
+  {
+   "id": "markowitz",
+   "ring": "portfolio",
+   "name": "Harry Markowitz",
+   "work": "Portfolio Selection, Journal of Finance",
+   "year": 1952,
+   "idea": "Risk belongs to the portfolio, through how its parts move together, not to any single holding.",
+   "rules": [
+    "R6"
+   ],
+   "short": "Harry Markowitz"
+  },
+  {
+   "id": "grinold-kahn",
+   "ring": "portfolio",
+   "name": "Richard C. Grinold and Ronald N. Kahn",
+   "work": "Active Portfolio Management",
+   "year": 1995,
+   "idea": "The fundamental law of active management: skill per call multiplied by the square root of the number of independent calls.",
+   "rules": [
+    "R5"
+   ],
+   "short": "Grinold and Kahn"
+  },
+  {
+   "id": "paleologo",
+   "ring": "portfolio",
+   "name": "Giuseppe A. Paleologo",
+   "work": "Advanced Portfolio Management: A Quant's Guide for Fundamental Investors",
+   "year": 2021,
+   "idea": "Separate every position into factor and idiosyncratic risk, and judge and size an idea by the part that is truly its own.",
+   "rules": [
+    "R6"
+   ],
+   "short": "Giuseppe A. Paleologo"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "compute": {
+  "note": "The chips that turn energy into inference and training.",
+  "indicators": [
+   [
+    "Worldwide semiconductor sales (SIA, WSTS data)",
+    "https://www.semiconductors.org/"
+   ],
+   [
+    "TOP500 list of supercomputers",
+    "https://top500.org/"
+   ]
+  ]
+ },
+ "memory": {
+  "note": "The memory bandwidth that feeds the chips; often the binding limit.",
+  "indicators": []
+ },
+ "packaging": {
+  "note": "Foundry processes and advanced packaging that turn designs into parts.",
+  "indicators": []
+ },
+ "data-centres": {
+  "note": "Buildings that hold the compute, measured in power drawn rather than square metres.",
+  "indicators": [
+   [
+    "IEA, Energy and AI",
+    "https://www.iea.org/reports/energy-and-ai"
+   ],
+   [
+    "LBNL, United States Data Center Energy Usage Report",
+    "https://escholarship.org/content/qt32d6m0d1/qt32d6m0d1.pdf"
+   ]
+  ]
+ },
+ "generation": {
+  "note": "New power — and the price of firm capacity when it runs short.",
+  "indicators": [
+   [
+    "PJM Interconnection, Base Residual Auction results",
+    "https://www.pjm.com/"
+   ]
+  ]
+ },
+ "grid": {
+  "note": "Wires, interconnection queues and storage between generation and load.",
+  "indicators": [
+   [
+    "LBNL, Queued Up",
+    "https://emp.lbl.gov/queues"
+   ],
+   [
+    "EIA, Electric Power Annual and Monthly",
+    "https://www.eia.gov/electricity/"
+   ]
+  ]
+ },
+ "cooling": {
+  "note": "Heat removal, from the chip stack to the building.",
+  "indicators": []
+ },
+ "power-electronics": {
+  "note": "Converters and drives that move power into chips and machines.",
+  "indicators": []
+ },
+ "robotics": {
+  "note": "Machines that act: actuators, arms and the learning that drives them.",
+  "indicators": [
+   [
+    "International Federation of Robotics, World Robotics",
+    "https://ifr.org/"
+   ]
+  ]
+ },
+ "sensing": {
+  "note": "Cameras, depth sensors and lidar: how machines perceive.",
+  "indicators": []
+ }
+}
